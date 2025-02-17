@@ -299,6 +299,13 @@ section .title{
     color: crimson;
 }
 
+/* Friend List */
+
+.friend{
+    color:yellow;
+    background:grey;
+}
+
 
 /* Contact Me */
 
