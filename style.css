@@ -305,7 +305,41 @@ section .title{
     color:yellow;
     background:grey;
 }
+.friend .friend-content .card{
+    width: calc(33%-20px);
+    background: #222;
+    text-align: center;
+    border-radius: 6px;
+    padding: 20px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
 
+.friend .friend-content .card:hover{
+    background: crimson;
+}
+
+.friend .friend-content .card .box{
+    transition: all 0.3s ease;
+}
+.friend .friend-content .card .box .text{
+    font-size: 24px;
+    font-weight: 600;
+    margin:10px 0;
+}
+.friend .friend-content .card .box span{
+    font-weight: bold;
+}
+.friend .friend-content .card .box p{
+    font-size: 16px;
+}
+.friend .friend-content .card:hover .box{
+    transform: scale(1.05);
+}
+.friend .friend-content .card i{
+    font-size: 50px;
+    color: green;
+}
 
 /* Contact Me */
 
