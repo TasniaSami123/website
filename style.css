@@ -66,9 +66,11 @@
 }
 .home .home-content .text-1{
     font-size: 27px;
+    padding: 10px;
 }
 .home .home-content .text-2{
     font-size: 75px;
+    padding: 10px;
     font-weight: 600;
     margin-left: -3px;
 
@@ -302,9 +304,10 @@ section .title{
 /* Friend List */
 
 .friend{
-    color:yellow;
-    background:grey;
+    color:rgb(12, 12, 12);
+    background:rgba(128, 128, 128, 0.601);
 }
+
 .friend .friend-content .card{
     width: calc(33%-20px);
     background: #222;
@@ -315,8 +318,17 @@ section .title{
     transition: all 0.3s ease;
 }
 
+.friend .friend-content .card a{
+    color:red;
+    text-decoration: underline;
+}
+
+.friend .friend-content .card a:hover{
+    color:rgb(39, 11, 162);
+}
+
 .friend .friend-content .card:hover{
-    background: crimson;
+    background: rgb(105, 95, 95);
 }
 
 .friend .friend-content .card .box{
@@ -326,9 +338,11 @@ section .title{
     font-size: 24px;
     font-weight: 600;
     margin:10px 0;
+    color:white;
 }
 .friend .friend-content .card .box span{
     font-weight: bold;
+    color:#fbfafa;
 }
 .friend .friend-content .card .box p{
     font-size: 16px;
@@ -338,7 +352,7 @@ section .title{
 }
 .friend .friend-content .card i{
     font-size: 50px;
-    color: green;
+    color: rgb(221, 184, 146);
 }
 
 /* Contact Me */
